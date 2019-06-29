@@ -1,0 +1,3 @@
+[submodule "Faeries"]
+	path = Faeries
+	url = git@github.com:DevJW2/Faeries.git
