@@ -1,0 +1,170 @@
+05-20: 
+	Both:
+		We both decided on an idea:
+		To make a website that was similar to yelp that looked for nearby food stores and show statistics based on that. 
+		We also planned out some basic functionalities and look of the website.
+
+05-23: 
+	Both: 
+		We both listed out all the form data we need.
+		Started to code the html file for the form.
+		Planned the design of the website.
+
+05-24: 
+	Jeffrey: 
+		Started work on collecting data:
+		Making the website return this data by making a csv file for: 
+		[money, name, keywords, etc.] 
+
+	Derek: 
+		Started work on making the profile page of the logged in user. 
+
+05-25: 
+	Jeffrey: 
+		Collecting more data, for the website: 
+		Creating the foodProcessor.py python file:
+			To obtain the form data and using it to help display results based on user input. 
+
+	Derek: Continued work on the profile page. 
+
+05-26: 
+	Jeffrey: 
+		Edited the mainpage: fixing the header and css style.
+		Fixing a minor error on position of form. 
+		Worked on the interaction between pages:
+			Not Logged in page <-> Logged in Page
+			Not Logged in page <-> Search Page
+			Logged in Page <-> profile page
+			Logged in Page <-> Search page
+			Profile page -> Not Logged in page 
+			Search page -> Not Logged in Page
+
+	Derek: 
+		Continued Work on the profile page
+		helped create a diagram for the different interactions between pages. 
+
+05-27:
+	Jeffrey: 
+		Continued work on foodProccessor.py: 
+			I deleted the html file and put everything into the python file.
+		Started work on the filtering problem with the form data:
+			On how the program reacts to the distance intervals, instead of direct input.
+ 
+	Derek: 
+		Changed createOrReset and login.py. 
+		Created a new txt file for profile data.
+		Changed login.py to force a person to input profile data before going to the actual page. 
+
+05-28: 
+
+	Jeffrey: 
+		fixed issues with display: 
+			Made the page that displayed the form with the page that displayed the results on to the same page.
+		Started to work on filtering Keyword in foodProcessor.py
+	Derek: 
+		No Change. 
+
+05-29
+	Jeffrey: 
+		Got the filtering for money, type of food, and restaurant name working in foodProcessor.py into a function called afterData
+		Collapsed the list of lists to create an allData variable, for iteration, this helps with the keyword search. 
+
+	Derek: Wrote code to determine if a user is new, and put the user info in userinfo.txt. Also changed profile.py to take info from userinfo.txt after user logs in. 
+		
+05-30
+	Jeffrey: 
+		Distance in miles was harder to work with because it needed me to manually calculate to see if the distance of the restaurant matched the option given in the distance form input. 
+		Filtering is done, the foodProcessor form is complete, able to calculate Distance, money, restaurant name, type of food. 
+		Search keyword has been revamped, decided that search keyword will be its own form separate with the specific form data such as distance and money. 
+
+	Derek: Ran into some problems with the new userinfo.txt file in the data directory. Could not access the username variable. 
+
+05-31
+	Jeffrey: 
+		Keyword was placed onto its own form, and the method of searching has been changed, now it’s keyword first, then when you want more specifics, you can use the extra form inputs. 
+		Error: Specific form input, when pressing submit, goes back to homepage. 
+	Derek: 
+		Fixed problems with accessing the username from the login page, and it properly writes user inputted info to the user info file. 
+06-01
+	Jeffrey: 
+		Combined foodProcessor.py with the mainpage.py:
+			made login.py and createaccount.py all link to the homepage(mainpage.py)
+	Derek: 
+		Fixed display for profile.py
+06-02
+	Jeffrey: 
+		Continued to fix errors, on mainpage.py because of merging. 
+		Initial error with the body adding the html: wasn’t able to just print results of the form, without getting internal server error, fixed that by adding it to the functions:
+		Put blocks of html for the homepage and the search page into functions called: homePage, and searchPage. 
+	Derek:
+		Started work on profileedit.py, weird error on pressing save changes twice.
+	
+
+06-03
+	Jeffrey: 
+		Deleted foodProcessor.py, changed fooddata.csv files: added ratings.
+	Derek: 
+		Continued work on profile.py
+06-04
+	Jeffrey: 
+		made final changes to mainpage.py, the main site works. 
+		Added a new feature: independent pages for the websites listed:
+			Made the names of the restaurants listed, into form submit buttons.
+			When pressing the button, it’ll take you to a new page with the restaurant details + description. Planning on adding the favorite system here too.
+		Created multiple functions, that are separate for both a logged in user and a not logged in user: 
+			loggedhomePage() and homePage()
+		Also restaurantPage() function was added, this function generates a website for any restaurant automatically. 
+		Fixed Errors on spacing, realized that spaces mixed with tabs caused the internal server error, this happened when i copy pasted code.
+		Styled form submit buttons, aligning the text to its corresponding title, with similar widths, padding, and with the same look as a navigation bar, styled background color: gradient, made the csv list file info into an unordered list.  
+	Derek: 
+		started work on addrestaurant.py, also started work on admin account. 
+		 
+06-05: 
+	Jeffrey: 
+		Favoriting system works, many many errors had to be fixed:
+			such as file permissions(FIXED)
+			also SPACING, the mixing of tabs and spaces, had to reindent the whole file many times.
+		favoriting and unfavoriting buttons(kept taking me to homepage instead of desired page):
+			adds favorite restaurants to a favorites.txt file
+			and also deletes restaurants from the favorites.txt file
+		Errors where the logged out user couldn’t access the restaurant pages but the logged in user can(FIXED)
+		
+		made a function for the loggedinrestaurantpages called loggedinrestaurantPage()
+		Changed more css, changed color scheme to make easier readability.
+	Derek:
+		Finished addrestaurant.py, restaurant.py file prompts you with a form to fill out, and is able to add a restaurant to the page. 
+06-06: 
+	Jeffrey: 
+		Not much change, aligned everything, made website look nice for DEMO. 
+	Derek: 
+		No change
+06-07: 
+	Jeffrey:
+		No change
+06-08: 
+	Jeffrey:  
+		No change
+06-09: 
+	Jeffrey:
+		No change
+06-10: 
+	Jeffrey:
+		No change
+06-11:
+	Jeffrey:
+		Finally Fixed the favoriting system, all users each have their own favorites, also when favorited, color will change to orange, and the favorited restaurant will be added to the profile. Lots of errors, lots of pain. 
+
+06-12: 
+	Jeffrey: 
+		Went through everything and added css, made the website look more nice, integrated Derek’s code into mine.
+ 
+		
+
+
+									
+	 
+		 
+		
+
+
+

@@ -1,0 +1,11 @@
+05-28: 
+	We both decided on an idea, to make a website that was similar to yelp that looked for nearby food stores and show statistics based on that. We also planned out some basic functionalities and look of the website.
+05-23: 
+	We both listed out all the form data we need, and started to code the html file for the form and plan the design of the website.
+05-24: 
+	Jeffrey: Started work on collecting data, and making the website return this data, by making a csv file for money, name, keywords, etc. 
+	Derek: Started work on making the profile page of the logged in user. 
+05-25: 
+	Jeffrey: Collecting more data, for the website, creating the python file to obtain this form data and using it to help display results based on user input
+	Derek: Continued work on the profile page. 
+

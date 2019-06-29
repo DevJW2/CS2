@@ -1,0 +1,108 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #B4D2E7;
+}
+
+#nav-bar{
+	background-color: #A1A6B4;
+}
+
+#logo {
+	margin-top: 0px;
+	display: inline;
+	font-size: 40px;
+}
+
+.accountinfo {
+	float: right;
+	margin-left:15px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+.accountinfo:hover {
+	color: darkcyan;	
+}
+
+#styledresults {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightcoral;
+	border-radius: 35px;
+	padding: 10px;
+	opacity: 0.8;
+}
+
+
+
+#title-bar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: cornflowerblue;
+	border-radius: 35px;
+	margin-bottom: 10px;
+	
+}
+
+#styleCost {
+	float: right;
+	width: 35px;
+}
+#styleDistance {
+	float: right;
+	width: 35px;
+}
+#styleFood {
+	float: right;
+	width: 35px;
+}
+#styleRating {
+	float: right;
+	width: 35px;
+}
+
+li {
+	float: left;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 5px 30px;
+	text-decoration: none;
+}
+#liCost {
+	float: right;
+}
+#liDistance {
+	float: right;
+}
+#liFood {
+	float: right;
+}
+#liRating {
+	float: right;
+}
+
+input[name=restaurant] {
+	text-decoration: none;
+	color: white;
+	background-color: lightcoral;
+}
+
+input[name=restaurant]:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#goback {
+	text-decoration: none;
+	font-size: 25px;
+}
+
+#goback:hover {
+	color: limegreen;
+}

@@ -1,0 +1,29 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav-bar{
+	background-color: lightgrey;
+}
+
+#logo {
+	margin-top: 0px;
+	display: inline;
+	font-size: 40px;
+}
+
+.accountinfo {
+	float: right;
+	margin-left:15px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+.accountinfo:hover {
+	color: darkgrey;
+	text-decoration: underline;
+	
+}
+
+

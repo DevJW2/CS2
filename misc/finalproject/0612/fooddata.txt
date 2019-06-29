@@ -1,0 +1,11 @@
+McDonalds,$,0.2,Fast Food,3.4
+Palm,$$$,0.1,Steakhouse,4.1
+Terrys,$,0.03,Deli,4.1
+Gourmet Market,$,0.05,Deli,4.3
+Whole Foods,$$$,0.2,Grocery Store,4.4
+Shake Shack,$,0.2,Fast Food,4.3
+Dirty Bird,$$,0.3,Fast Food,3.7
+Checkers,$,0.5,Fast Food,3.6
+Chipotle,$$,0.3,Fast Food,3.7
+Food Emporium,$$,0.3,Grocery Store,4.0
+Gee Whiz,$$,0.2,Diner,3.7

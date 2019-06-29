@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>
+<head> 
+	<link rel="stylesheet" type="text/css" href="indexpage.css">
+</head>
+<body>
+	<h3>Food Mining Near Stuyvesant!</h3>
+	<a href="createaccount.py"> Create Account! </a><br>
+	<a href="login.py"> Login! </a> 
+	<p> Brief description of what website does </p>
+	<h1> THIS IS GOING TO BE IMAGES </h1> 
+<form method="GET" action="processdata.py">
+	Keyword:<input type="text" name="keyword">
+
+	Name:<select name="name" size="1">
+		<option>All</option>
+		<option>McDonald's</option>
+		<option>Ferry's</option>
+	</select>
+	Money:<select name="money" size="1">
+		<option>All</option>
+		<option>1-5</option>
+		<option>6-10</option>
+	</select>
+	Distance:<select name="distance" size="1">
+		<option>All</option>
+		<option>1-5 miles</option>
+		<option>6-10 miles</option>
+	</select>
+	Type of Food:<select name="food" size="1">
+		<option>All</option>
+		<option>Food1</option>
+		<option>Food2</option>
+	</select>
+	<input type="submit" name="submit">
+</form>
+
+<h1> This is going to the about us and the project and stuff </h1>
+
+</body>
+
+</html>
